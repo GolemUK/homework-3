@@ -1,0 +1,229 @@
+:root {
+    --main-color-text: #757575;
+    --typical-lh: 1.19;
+    --main-nav-lh: 1.14;
+    --typical-link-lh: 1.71;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    color: #212121;
+}
+
+.list {
+    list-style: none;
+}
+
+.item {
+    text-decoration: none;
+}
+
+.border {
+    border: none;
+}
+
+.logo-a,
+.logo-a-a {
+    font-family: 'Raleway';
+    font-weight: 700;
+    font-size: 26px;
+    line-height: var(--typical-lh);
+    letter-spacing: 0.03em;
+    color: #2196F3;
+}
+.logo-b {  
+    font-family: 'Raleway';
+    font-weight: 700;
+    font-size: 26px;
+    line-height: var(--typical-lh);
+    letter-spacing: 0.03em;
+    color: #000000;
+}
+.logo-b-b {
+    font-family: 'Raleway';
+    font-weight: 700;
+    font-size: 26px;
+    line-height: var(--typical-lh);
+    letter-spacing: 0.03em;
+    color: #FFFFFF;
+}
+.nav {
+}
+.list {
+}
+.nav-link {
+    font-size: 14px;
+    line-height: var(--main-nav-lh);
+    letter-spacing: 0.02em;
+    color: #212121;
+}
+.mail-a:hover, 
+.tel-a:hover, 
+.nav-link:hover {
+    color: #2196F3;
+}
+.mail {
+    font-family: 'Roboto';
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+    color: rgba(255, 255, 255, 0.6);
+}
+.tel {
+    font-family: 'Roboto';
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+    color: rgba(255, 255, 255, 0.6);
+}
+.mail-a {
+    font-family: 'Roboto';
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+    color: #757575;
+}
+.tel-a {
+    font-family: 'Roboto';
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+    color: #757575;
+}
+.section-a {
+    background: #2F303A;
+}
+.main-heading {
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 1.36;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+.btn {
+    font-family: 'Roboto';
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.87;
+    letter-spacing: 0.06em;
+    color: #FFFFFF;
+    background-color: #2196F3;
+}
+.section-b {
+}
+.section-b-text {
+}
+.section-b-subtitle {
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #212121;
+}
+.section-b-desc {
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+    color: var(--main-color-text);
+}
+.section-c {
+}
+.section-c-heading {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.16;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: #212121;
+}
+.section-c-text {
+}
+.section-d {
+}
+.section-d-heading {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.16;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: #212121;
+}
+.section-d-text {
+}
+.section-d-subtitle {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.18;
+    letter-spacing: 0.03em;
+    color: #212121;
+
+}
+.section-d-desc {
+    font-size: 16px;
+    line-height: 1.18;
+    letter-spacing: 0.03em;
+    color: var(--main-color-text);
+}
+.footer {
+    background: #2F303A;
+}
+.footer-link {
+    font-size: 14px;
+    line-height: var(--typical-link-lh);
+    letter-spacing: 0.03em;
+    color: #FFFFFF;
+}
+.footer-text {
+}
+
+.section-nav {
+}
+.section-nav-text {
+}
+.btn-title {
+    font-family: 'Roboto';
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.62;
+    letter-spacing: 0.03em;
+    color: #212121;
+}
+.btn-title:hover{
+    background: #2196F3;
+    color: #FFFFFF;
+}
+.section-img {
+}
+.section-img-text {
+}
+.icon-box {
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 2;
+    letter-spacing: 0.06em;
+    color: #212121;
+}
+.box-p {
+    font-size: 16px;
+    line-height: 1.87;
+    letter-spacing: 0.03em;
+    color: var(--main-color-text);
+
+}
+.visually-hidden {
+    position: absolute;
+    white-space: nowrap;
+    width: 1px;
+    height: 1px;
+    overflow: hidden;
+    border: 0;
+    padding: 0;
+    clip: rect(0 0 0 0);
+    clip-path: inset(50%);
+    margin: -1px;
+}
