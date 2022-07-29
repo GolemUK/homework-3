@@ -10,6 +10,25 @@ body {
     color: #212121;
 }
 
+* {
+    box-sizing: border-box;
+}
+
+p, 
+h1, 
+h2, 
+h3, 
+h4, 
+h5, 
+h6 {
+    margin: 0;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+}
+
 .list {
     list-style: none;
 }
@@ -20,6 +39,26 @@ body {
 
 .border {
     border: none;
+}
+
+img {
+    display: block;
+}
+
+.header .container {
+    display: flex;
+}
+
+.container {
+    width: 1200px;
+    padding: 0 15px;
+    margin: 0 auto;
+    
+}
+
+.header {
+    padding-top: 30px;
+    padding-bottom: 30px;
 }
 
 .logo-a,
@@ -47,11 +86,34 @@ body {
     letter-spacing: 0.03em;
     color: #FFFFFF;
 }
-.nav {
+
+
+.logo-div {
+    padding-top: 24px;
+    padding-bottom: 24px;
+    margin-right: 93px;
 }
+
+.nav {
+    display: flex;
+    padding-top: 32px;
+    padding-bottom: 32px;
+    column-gap: 50px;
+}
+
+.flex-contact {
+    margin-left: auto;
+    padding-top: 32px;
+    padding-bottom: 32px;
+    gap: 50px;
+}
+
 .list {
 }
+
 .nav-link {
+    font-style: normal;
+    font-weight: 500;
     font-size: 14px;
     line-height: var(--main-nav-lh);
     letter-spacing: 0.02em;
@@ -65,19 +127,24 @@ body {
 .mail {
     font-family: 'Roboto';
     font-weight: 400;
+    font-style: normal;
     font-size: 14px;
     line-height: 1.71;
     letter-spacing: 0.03em;
     color: rgba(255, 255, 255, 0.6);
+    margin-top: 9px;
 }
 .tel {
     font-family: 'Roboto';
     font-weight: 400;
+    font-style: normal;
     font-size: 14px;
     line-height: 1.71;
     letter-spacing: 0.03em;
     color: rgba(255, 255, 255, 0.6);
+    margin-top: 9px;
 }
+
 .mail-a {
     font-family: 'Roboto';
     font-weight: 500;
@@ -93,17 +160,27 @@ body {
     line-height: 1.14;
     letter-spacing: 0.02em;
     color: #757575;
+    margin-left: 50px;
 }
 .section-a {
     background: #2F303A;
 }
+
 .main-heading {
     font-weight: 900;
     font-size: 44px;
     line-height: 1.36;
     text-transform: uppercase;
     color: #FFFFFF;
+    text-align: center;
+    max-width: 650px;
+    height: 120px;
 }
+
+.main-heading-box {
+    padding: 200px 260px 280px;
+}
+
 .btn {
     font-family: 'Roboto';
     font-weight: 700;
@@ -112,11 +189,24 @@ body {
     letter-spacing: 0.06em;
     color: #FFFFFF;
     background-color: #2196F3;
+    min-width: 200px;
+    min-height: 50px;
+    display: block;
+    margin: 0 auto;
+    margin-top: 40px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    border-radius: 4px;
 }
+
 .section-b {
+    padding-top: 94px;
 }
+
 .section-b-text {
+    display: flex;
+    gap: 30px;
 }
+
 .section-b-subtitle {
     font-weight: 700;
     font-size: 14px;
@@ -124,15 +214,20 @@ body {
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: #212121;
+    margin-bottom: 10px;
 }
+
 .section-b-desc {
     font-size: 14px;
     line-height: 1.71;
     letter-spacing: 0.03em;
     color: var(--main-color-text);
 }
+
 .section-c {
+    padding-top: 94px;
 }
+
 .section-c-heading {
     font-weight: 700;
     font-size: 36px;
@@ -140,11 +235,18 @@ body {
     text-align: center;
     letter-spacing: 0.03em;
     color: #212121;
+    margin-bottom: 50px;
 }
+
 .section-c-text {
+    display: flex;
+    gap: 30px;
 }
+
 .section-d {
+    padding-top: 94px;
 }
+
 .section-d-heading {
     font-weight: 700;
     font-size: 36px;
@@ -152,9 +254,14 @@ body {
     text-align: center;
     letter-spacing: 0.03em;
     color: #212121;
+    margin-bottom: 50px;
 }
+
 .section-d-text {
+    display: flex;
+    gap: 30px;
 }
+
 .section-d-subtitle {
     font-weight: 500;
     font-size: 16px;
@@ -163,28 +270,62 @@ body {
     color: #212121;
 
 }
+
+.section-d-li {
+    width: calc((100% - 90px) / 4);
+}
+
+.section-d-seb-div {
+    padding-top: 30px;
+    padding-bottom: 30px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
 .section-d-desc {
     font-size: 16px;
     line-height: 1.18;
     letter-spacing: 0.03em;
     color: var(--main-color-text);
 }
+
 .footer {
     background: #2F303A;
+    margin-top: 94px;
 }
+
 .footer-link {
+    font-style: normal;
     font-size: 14px;
     line-height: var(--typical-link-lh);
     letter-spacing: 0.03em;
     color: #FFFFFF;
 }
+
 .footer-text {
+
+}
+
+.footer-p {
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+
+.footer-address {
+    margin-top: 20px;
 }
 
 .section-nav {
+    padding-top: 94px;
 }
+
 .section-nav-text {
+    display: flex;
+    gap: 8px;
+    margin-left: 280px;
+    margin-right: 280px;;
 }
+
 .btn-title {
     font-family: 'Roboto';
     font-weight: 500;
@@ -192,29 +333,44 @@ body {
     line-height: 1.62;
     letter-spacing: 0.03em;
     color: #212121;
+    box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1);
+    border-radius: 4px;
 }
+
 .btn-title:hover{
     background: #2196F3;
     color: #FFFFFF;
 }
+
 .section-img {
+    margin-top: 34px;
 }
+
 .section-img-text {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
 }
+
 .icon-box {
     font-weight: 700;
     font-size: 18px;
     line-height: 2;
     letter-spacing: 0.06em;
     color: #212121;
+    margin-top: 20px;
+    margin-bottom: 4px;
 }
+
 .box-p {
     font-size: 16px;
     line-height: 1.87;
     letter-spacing: 0.03em;
     color: var(--main-color-text);
+    margin-bottom: 20px;
 
 }
+
 .visually-hidden {
     position: absolute;
     white-space: nowrap;
