@@ -352,6 +352,10 @@ img {
     gap: 30px;
 }
 
+.section-text-block {
+    margin-left: 24px;
+}
+
 .icon-box {
     font-weight: 700;
     font-size: 18px;
