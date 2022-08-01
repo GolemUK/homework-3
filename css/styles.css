@@ -89,8 +89,7 @@ img {
     color: #FFFFFF;
 }
 
-
-.logo-div {
+.header-logo {
     margin-right: 93px;
 }
 
@@ -117,6 +116,13 @@ img {
 .nav-link:hover {
     color: #2196F3;
 }
+
+.mail-a:focus, 
+.tel-a:focus, 
+.nav-link:focus {
+    color: #2196F3;
+}
+
 .mail {
     font-family: 'Roboto';
     font-weight: 400;
@@ -303,6 +309,8 @@ img {
 
 .footer {
     background: #2F303A;
+    padding-top: 60px;
+    padding-bottom: 60px;
 }
 
 .footer-link {
@@ -319,23 +327,18 @@ img {
 }
 
 .footer-p {
-    padding-top: 60px;
-    padding-bottom: 60px;
+    
 }
 
 .footer-address {
     margin-top: 20px;
 }
 
-.section-nav {
-    padding-top: 94px;
-}
 
 .section-nav-text {
     display: flex;
     gap: 8px;
     justify-content: center;
-    padding: 6px 22px;
 }
 
 .btn-title {
@@ -346,6 +349,7 @@ img {
     letter-spacing: 0.03em;
     color: #212121;
     border-radius: 4px;
+    padding: 6px 22px;
 }
 
 .btn-title:hover{
@@ -354,17 +358,20 @@ img {
 }
 
 .section-img {
-    margin-top: 34px;
+    padding-top: 94px;
+    padding-bottom: 94px;
 }
 
 .section-img-text {
     display: flex;
     flex-wrap: wrap;
     gap: 30px;
+    margin-top: 34px;
 }
 
 .section-text-block {
-    padding: 24px 20px;
+    padding: 20px 24px;
+    border: 1px solid #EEEEEE;
 }
 
 .icon-box {
@@ -373,7 +380,6 @@ img {
     line-height: 2;
     letter-spacing: 0.06em;
     color: #212121;
-    margin-top: 20px;
     margin-bottom: 4px;
 }
 
@@ -382,7 +388,6 @@ img {
     line-height: 1.87;
     letter-spacing: 0.03em;
     color: var(--main-color-text);
-    margin-bottom: 20px;
 
 }
 
