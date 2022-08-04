@@ -47,8 +47,6 @@ img {
 
 .header .container {
     display: flex;
-    padding-top: 24px;
-    padding-bottom: 24px;
     align-items: center;
 }
 
@@ -61,6 +59,8 @@ img {
 
 .header {
     border-bottom: 1px solid #ececec;
+    padding-top: 24px;
+    padding-bottom: 24px;
 }
 
 .logo-a,
@@ -168,10 +168,12 @@ img {
 
 .section-a {
     background: #2F303A;
+    padding: 200px 0 200px;
 }
 
 .main-heading {
     font-weight: 900;
+    letter-spacing: 0.06em;
     font-size: 44px;
     line-height: 1.36;
     text-transform: uppercase;
@@ -180,10 +182,11 @@ img {
     max-width: 650px;
     height: 120px;
     margin: 0 auto;
+    
 }
 
 .section-a .container {
-    padding: 200px 0 200px;
+    
 }
 
 .main-heading-box {
@@ -366,7 +369,7 @@ img {
     display: flex;
     flex-wrap: wrap;
     gap: 30px;
-    margin-top: 34px;
+    margin-top: 50px;
 }
 
 .section-text-block {
@@ -403,3 +406,4 @@ img {
     clip-path: inset(50%);
     margin: -1px;
 }
+
